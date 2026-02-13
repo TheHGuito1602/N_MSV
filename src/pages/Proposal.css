@@ -1,0 +1,271 @@
+.proposal-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.back-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.back-button:hover {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.proposal-card {
+  background: white;
+  border-radius: 20px;
+  padding: 60px 40px;
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  text-align: center;
+  z-index: 10;
+}
+
+.proposal-emoji {
+  font-size: 80px;
+  margin-bottom: 30px;
+  display: block;
+}
+
+.proposal-title {
+  font-size: 42px;
+  color: #e74c3c;
+  margin-bottom: 20px;
+  font-family: 'Georgia', serif;
+}
+
+.proposal-subtitle {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 50px;
+  line-height: 1.6;
+}
+
+.btn-yes,
+.btn-no {
+  padding: 15px 40px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-yes {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.btn-yes:hover {
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+  transform: translateY(-3px);
+}
+
+.proposal-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  height: auto;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.no-button-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 50;
+}
+
+.btn-no {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+  position: fixed;
+  font-family: 'Arial', sans-serif;
+  letter-spacing: 1px;
+  transform-origin: center;
+  pointer-events: auto;
+  z-index: 51;
+  top: 50%;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -30px;
+}
+
+.btn-no:hover {
+  box-shadow: 0 6px 20px rgba(245, 87, 108, 0.4);
+  filter: brightness(1.1);
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(-5deg); }
+  50% { transform: rotate(5deg); }
+}
+
+.btn-no:active {
+  animation: wiggle 0.3s ease-in-out;
+}
+
+.particle {
+  position: fixed;
+  font-size: 24px;
+  pointer-events: none;
+  top: 50%;
+  left: 50%;
+  z-index: 50;
+}
+
+/* Celebración */
+.celebration {
+  text-align: center;
+}
+
+.celebration-emoji {
+  font-size: 100px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.celebration-emoji.smaller {
+  font-size: 48px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  letter-spacing: 10px;
+}
+
+.celebration-title {
+  font-size: 48px;
+  color: #e74c3c;
+  margin-bottom: 20px;
+  font-family: 'Georgia', serif;
+}
+
+.celebration-text {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
+
+.celebrate-button {
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  margin-top: 20px;
+}
+
+.celebrate-button:hover {
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+/* Confetti */
+.confetti {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.confetti-piece {
+  position: absolute;
+  font-size: 30px;
+  opacity: 0.8;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .proposal-card {
+    padding: 40px 25px;
+    max-width: 90%;
+  }
+
+  .proposal-emoji {
+    font-size: 60px;
+  }
+
+  .proposal-title {
+    font-size: 32px;
+  }
+
+  .proposal-subtitle {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+
+  .proposal-buttons {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .btn-yes {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .btn-no {
+    position: fixed;
+  }
+
+  .celebration-emoji {
+    font-size: 80px;
+  }
+
+  .celebration-title {
+    font-size: 36px;
+  }
+
+  .celebration-text {
+    font-size: 16px;
+  }
+
+  .celebration-emoji.smaller {
+    font-size: 36px;
+  }
+
+  .back-button {
+    top: 15px;
+    left: 15px;
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
