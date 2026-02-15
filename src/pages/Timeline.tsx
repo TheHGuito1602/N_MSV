@@ -15,13 +15,13 @@ interface TimelineEvent {
 const events: TimelineEvent[] = [
   {
     date: 'N',
-    title: 'Aquel Día Que Cambió Mi Vida',
+    title: 'No Olvidaré Aquel Día Que Cambió Mi Vida',
     description: 'Te vi y todo el mundo desapareció. Tu sonrisa iluminó mi alma. Fue amor a primera vista. 💫',
     emoji: '✨',
   },
   {
     date: 'O',
-    title: 'o Donde Todo Comenzó',
+    title: 'O Donde Todo Comenzó',
     description: 'Ese momento mágico me hace anhelar tus labios tocando los míos. Desearé que el tiempo se detenga y solo existir nosotros dos. 💋',
     emoji: '💕',
   },
