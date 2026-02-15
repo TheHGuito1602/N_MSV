@@ -14,44 +14,111 @@ interface TimelineEvent {
 // ¡Personaliza estos momentos con tu historia real!
 const events: TimelineEvent[] = [
   {
-    date: 'Enero 2025',
-    title: 'Nuestro Primer Encuentro',
-    description: 'El día que todo comenzó. Tu sonrisa iluminó mi mundo.',
+    date: 'N',
+    title: 'Aquel Día Que Cambió Mi Vida',
+    description: 'Te vi y todo el mundo desapareció. Tu sonrisa iluminó mi alma. Fue amor a primera vista. 💫',
     emoji: '✨',
-    image: '/images/momento1.jpg', // Reemplaza con tu imagen
   },
   {
-    date: 'Marzo 2025',
-    title: 'Primera Aventura',
-    description: 'Aquella salida inolvidable donde descubrimos cuánto teníamos en común.',
-    emoji: '🎉',
-    image: '/images/momento2.jpg', // Reemplaza con tu imagen
+    date: 'O',
+    title: 'o Donde Todo Comenzó',
+    description: 'Ese momento mágico me hace anhelar tus labios tocando los míos. Desearé que el tiempo se detenga y solo existir nosotros dos. 💋',
+    emoji: '💕',
   },
   {
-    date: 'Junio 2025',
-    title: 'Un Momento Especial',
-    description: 'Ese día perfecto que quedará por siempre en mi memoria.',
-    emoji: '💫',
-    image: '/images/momento3.jpg', // Reemplaza con tu imagen
+    date: 'E',
+    title: 'Eres Mi Refugio',
+    description: 'En ti encontré mi hogar. Tu anor me protege, tu amor me completa. Eres mi paz. 🏠',
+    emoji: '💑',
   },
   {
-    date: 'Septiembre 2025',
-    title: 'Nuevas Experiencias',
-    description: 'Juntos hemos compartido risas, aventuras y sueños.',
+    date: 'M',
+    title: 'Me Alegras Sin Fin',
+    description: 'Tu risa es mi canción favorita. Los momentos contigo son los más preciosos de mi vida. ¡Cómo te amo! 🎵',
+    emoji: '😍',
+  },
+  {
+    date: 'Í',
+    title: 'íbamos Sin Pensar En El Mañana',
+    description: 'En tus ojos veo el futuro, veo nuestro destino escrito. Son los ojos más hermosos que he visto. 👀',
+    emoji: '🌌',
+  },
+  {
+    date: 'C',
+    title: 'Cuantas Aventuras Tendré A Tu Lado',
+    description: 'Cada lugar es especial si estás conmigo. Exploremos el mundo juntos y creemos recuerdos infinitos. 🌍',
+    emoji: '✈️',
+  },
+  {
+    date: 'R',
+    title: 'Reaccionas Con Una Química Perfecta',
+    description: 'Somos el uno para el otro, una química perfecta, un match hecho en el cielo. Eres mi persona indicada. 💫',
+    emoji: '🔥',
+  },
+  {
+    date: 'U',
+    title: 'Unta De Tu Perfume En Mí',
+    description: 'El aroma de tu perfume es lo que más amo sentir. Te llevaría en mi corazón a todos lados. 🌸',
+    emoji: '💐',
+  },
+  {
+    date: 'Z',
+    title: 'Zarpa Un Barco De Sueños Compartidos',
+    description: 'Juntos construiremos nuestro futuro. Nuestros sueños se entrelazan en una hermosa realidad. 🌈',
+    emoji: '✨',
+  },
+  {
+    date: 'C',
+    title: 'Contigo Encuentro Mi Razón de Ser',
+    description: 'Despiertas y eres lo primero que pienso. Eres mi razón para sonreír cada mañana. Te amo. 🌅',
+    emoji: '☀️',
+  },
+  {
+    date: 'O',
+    title: 'O Darás Sentido A Los Pequeños Detalles',
+    description: 'Cada caricia, cada beso, cada palabra tuya me enamora más. Los detalles te hacen especial. 💝',
+    emoji: '🎁',
+  },
+  {
+    date: 'N',
+    title: 'Mi Todo En Uno',
+    description: 'Eres mi amor, mi amiga, mi confidente. Juntos navegamos la vida sin miedo. 👯',
+    emoji: '💖',
+  },
+  {
+    date: 'T',
+    title: 'Tu Me Llevas Al Infinito y Más Allá',
+    description: 'Mi amor por ti es infinito, trasciende el espacio y el tiempo. Eres eternidad para mí. ∞',
     emoji: '🌟',
-    image: '/images/momento4.jpg', // Reemplaza con tu imagen
   },
   {
-    date: 'Diciembre 2025',
-    title: 'Creciendo Juntos',
-    description: 'Cada día a tu lado es un regalo. Gracias por ser tú.',
-    emoji: '💝',
-    image: '/images/momento5.jpg', // Reemplaza con tu imagen
+    date: 'R',
+    title: 'Resuena En Mí, Eres Mi Melodía',
+    description: 'Tu voz es mi canción favorita. Cada palabra tuya resuena en mi alma. Te amo en silencio y en gritos. 🎶',
+    emoji: '🎼',
   },
   {
-    date: 'Febrero 2026',
-    title: 'Este San Valentín',
-    description: '¿Quieres ser mi San Valentín? 💕',
+    date: 'E',
+    title: 'Entre Tus Brazos Hallaré Mi Cura',
+    description: 'Tu abrazo es mi medicina, mi refugio seguro. En tus brazos todo está bien. 🤗',
+    emoji: '💪',
+  },
+  {
+    date: 'R',
+    title: 'Refuerzas El Fuego y Pasión',
+    description: 'Te deseo con cada fibra de mi ser. Nuestra pasión es un fuego que no se apaga nunca. 🔥',
+    emoji: '💥',
+  },
+  {
+    date: 'A',
+    title: 'Ahora Y Para Siempre Eres Mi Otra Mitad',
+    description: 'Eres la otra mitad de mi alma. Juntos somos completos, enteros, perfectos. 💓',
+    emoji: '💑',
+  },
+  {
+    date: 'S',
+    title: '¡Sé Mi San Valentín!',
+    description: 'Quiero pasar la eternidad contigo, enamorándome cada día. ¿Quieres ser mi San Valentín para siempre? 💕',
     emoji: '❤️',
   },
 ];
@@ -84,7 +151,7 @@ const Timeline = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8 }}
       >
-        Nuestra Historia ❤️
+        ✨ Nuestra Historia de Amor ❤️ ✨
       </motion.h1>
 
       <div className="timeline">
@@ -109,9 +176,10 @@ const Timeline = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
+              <h3 className="timeline-initial">{event.date}</h3>
               <div className="timeline-emoji">{event.emoji}</div>
-              <h3 className="timeline-date">{event.date}</h3>
               <h2 className="timeline-event-title">{event.title}</h2>
+              <p className="timeline-description">{event.description}</p>
               
               {event.image && (
                 <motion.div
@@ -134,19 +202,8 @@ const Timeline = () => {
                 </motion.div>
               )}
               
-              <motion.p
-                className="timeline-description"
-                initial={{ height: 0, opacity: 0 }}
-                animate={{
-                  height: selectedEvent === index ? 'auto' : 0,
-                  opacity: selectedEvent === index ? 1 : 0,
-                }}
-                transition={{ duration: 0.3 }}
-              >
-                {event.description}
-              </motion.p>
               <p className="timeline-click-hint">
-                {index === events.length - 1 ? 'Toca para responder' : selectedEvent === index ? 'Toca para cerrar' : 'Toca para leer más'}
+                {index === events.length - 1 ? 'Toca para responder' : 'Toca aquí'}
               </p>
             </motion.div>
             <div className="timeline-dot"></div>
@@ -161,7 +218,7 @@ const Timeline = () => {
         transition={{ duration: 1, delay: 1 }}
       >
         <p className="footer-text">
-          Y esta es solo el comienzo de nuestra historia... 💕
+          Este es solo el comienzo de nuestra eternidad juntos... 💕✨
         </p>
       </motion.div>
     </div>

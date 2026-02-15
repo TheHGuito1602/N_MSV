@@ -80,7 +80,7 @@ const Home = () => {
           >
             <div className="envelope-flap"></div>
             <div className="envelope-body">
-              <p className="envelope-text">Para mi San Valentín 💝</p>
+              <p className="envelope-text">Para Mi Amor💝</p>
               <p className="envelope-hint">Haz clic para abrir</p>
             </div>
           </motion.div>
@@ -111,20 +111,22 @@ const Home = () => {
             >
               <h1 className="letter-title">Mi amor ❤️</h1>
               <p className="letter-text">
-                Hoy quiero recordarte lo especial que eres para mí...
+                Hoy quiero recordarte lo especial que eres para mí... Mi Amor eterno
               </p>
               <p className="letter-text">
-                Cada momento a tu lado ha sido un regalo único,
-                y quiero que viajemos juntos por nuestros recuerdos.
+                Podrá nublarse el sol eternamente;<br />
+                podrá secarse en un instante el mar;<br />
+                podrá romperse el eje de la tierra<br />
+                como un débil cristal.<br />
+                <br />
+                ¡Todo sucederá! Podrá la muerte<br />
+                cubrirme con su fúnebre crespón;<br />
+                pero jamás en mí podrá apagarse<br />
+                la llama de tu amor.
               </p>
-              <motion.p
-                className="letter-text letter-signature"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 2 }}
-              >
-                Con todo mi amor 💕
-              </motion.p>
+              <p className="letter-text">
+                -Gustavo Adolfo Bécquer
+              </p>
               <motion.button
                 className="timeline-button"
                 initial={{ opacity: 0, y: 20 }}
@@ -134,7 +136,7 @@ const Home = () => {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                Ver Nuestra Historia ✨
+                Lo que eres para mí ✨
               </motion.button>
             </motion.div>
           </motion.div>
