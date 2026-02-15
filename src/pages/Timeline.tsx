@@ -81,7 +81,7 @@ const events: TimelineEvent[] = [
   },
   {
     date: 'N',
-    title: 'Mi Todo En Uno',
+    title: 'No Eres Menos Que Mi Todo En Uno',
     description: 'Eres mi amor, mi amiga, mi confidente. Juntos navegamos la vida sin miedo. 👯',
     emoji: '💖',
   },
